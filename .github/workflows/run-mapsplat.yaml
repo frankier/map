@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Run mapsplat
-        uses: nordic-rse/mapsplat
+        uses: nordic-rse/mapsplat@main
         with:
           web-repo: 'frankier/nordic-rse.github.io'
