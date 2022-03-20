@@ -1,0 +1,16 @@
+name: Docker
+
+on:
+  push:
+    branches:    
+      - main
+
+jobs:
+  run_mapsplat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run mapsplat
+        uses: nordic-rse/mapsplat
+        with:
+          web-repo: 'frankier/nordic-rse.github.io'
